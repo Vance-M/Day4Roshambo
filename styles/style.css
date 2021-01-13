@@ -81,10 +81,22 @@ header img {
 
 
 content {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     width: 80%;
+}
+
+.game-space {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rules {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 p {

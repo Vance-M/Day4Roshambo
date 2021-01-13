@@ -26,28 +26,38 @@
             </h2>
 
             <content>
-                <label>
-                    Rock
-                    <input type='radio' name='group1'
-                </label>
+                <div class="game-space">
+                    <label>
+                        Rock
+                        <input type='radio' name='group1'
+                    </label>
 
-                <label>
-                    Paper
-                    <input type='radio' name='group1'
-                </label>
+                    <label>
+                        Paper
+                        <input type='radio' name='group1'
+                    </label>
 
-                <label>
-                    Scissors
-                    <input type='radio' name='group1'
-                </label>
-                <div>  
-                    <button id='game-time'>Gametime!</button>
+                    <label>
+                        Scissors
+                        <input type='radio' name='group1'
+                    </label>
+                    <div>  
+                        <button id='game-time'>Gametime!</button>
+                        <button id='reset-scores'>Reset Scores</button>
+                    </div>
+                    <div id='results'>
+                        <br>You <span id='current-result'></span>
+                        <br>The computer threw <span id='computer-choice'></span>
+                    </div>
+                    <div id='record'>
+                        <br>Win: <span id='win-record'></span>
+                        <br>Lose: <span id='lose-record'></span>
+                        <br>Draw: <span id='draw-record'></span>
+                    </div>
                 </div>
-
                 <div class='rules'>
-                    Rock beats Scissors
-                    <br>Paper beats Rock
-                    <br>Scissors beats Paper
+                    <img class="rules-graphic" src="https://i.pinimg.com/originals/c4/a3/02/c4a302fc7080660d3a1da435e1da5f47.jpg" alt="rock beats scissors, scissors beats paper, paper beats rock"/>
+
                 </div>
 
             </content>
