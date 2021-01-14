@@ -1,4 +1,3 @@
-// const checkedInput = document.querySelector('input[type=radio]:checked');
 
 export function userInput() {
 

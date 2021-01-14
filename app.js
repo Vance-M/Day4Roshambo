@@ -29,8 +29,9 @@ gameTime.addEventListener('click', () =>{
 
 
     let compSelector = Number(computerRps());
-    // const checkedInput = document.querySelector('input[type=radio]:checked');
     let userSelector = Number(userInput());
+
+    computerChoice.textContent = compSelector + '!';
 
     console.log(compSelector);
     console.log(userSelector);
