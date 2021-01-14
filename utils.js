@@ -3,7 +3,6 @@ let loseRecord = document.getElementById('lose-record');
 let drawRecord = document.getElementById('draw-record');
 
 export function didUserWin(compSelector, userSelector) {
-
     if (compSelector === 'rock' && userSelector === 'paper'){
         return 'win';
     } else if (compSelector === 'paper' && userSelector === 'scissors'){

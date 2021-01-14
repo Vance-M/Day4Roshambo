@@ -2,6 +2,7 @@
 let winRecord = document.getElementById('win-record');
 let loseRecord = document.getElementById('lose-record');
 let drawRecord = document.getElementById('draw-record');
+let resetRecord = document.getElementById('reset-record');
 let computerChoice = document.getElementById('computer-choice');
 const currentResult = document.getElementById('current-result');
 const resetScores = document.getElementById('reset-scores');
@@ -28,7 +29,7 @@ resetScores.addEventListener('click', () =>{
     winRecord.textContent = 0;
     loseRecord.textContent = 0;
     drawRecord.textContent = 0;
-
+    resetRecord.textContent++;
 });
 
 
