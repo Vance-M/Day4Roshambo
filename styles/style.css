@@ -79,7 +79,6 @@ header img {
 }
 
 
-
 content {
     width: 80%;
 }
@@ -89,7 +88,7 @@ content {
     width: 50px;
 }
 
-input[type="radio"]:checked {
+input[type="radio"]:checked + img {
     border: solid 3px
 }
 
